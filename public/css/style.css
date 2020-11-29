@@ -282,10 +282,11 @@ z-index: 10;
 }
 .card.price_box {
 box-shadow: 2.5px 4.33px 20px rgba(0,0,0,0.2);
-background-color: transparent;
+background-color: #fff;
 text-align: center;
-padding: 30px;
+padding: 10px;
 }
+
 .card.price_box h2 {
 font-size: 15px;
 line-height: 40px;
@@ -301,11 +302,12 @@ text-align: center;
 font-size: 24px; bottom: 0px; margin: 0 5px;
 }
 .card.price_box ul li{
-font-size: 16px;
-line-height: 45px;
-color: #939499;
-font-weight: 400;
-text-align: center;
+  font-size: 16px;
+  line-height: 45px;
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
 }
 .card.price_box.active {
 border: 2px solid rgba(255,255,255,0.04);

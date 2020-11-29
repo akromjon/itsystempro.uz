@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/owlcarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/owlcarousel/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>IT SYSTEM PRO - Sayt Yaratish Yanada Osonroq!</title>
+    <title>{{__('lang.title')}}</title>
     <link rel="shortcut icon" href="images/favicon.ico" />
 </head>
 
@@ -27,7 +27,7 @@
     <header id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light  navbar-transparent">
             <div class="container">
-                <a class="navbar-brand" style="font-size: 35px; color: white;" href="#home">itsystem.uz</a>
+                <a class="navbar-brand" style="font-size: 35px; color: white;" href="#home">ItSystem.uz</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLexar" aria-controls="navbarLexar" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
@@ -94,9 +94,10 @@
             <div class="row mb-30">
                 <div class="col-md-10 offset-md-1">
                     <div class="srction_title text-center">
-                        <h2 class="h1 font-weight-900 mb-0">The Benefits of <span class="text-primary">lexar</span></h2>
+                        <h2 class="h1 font-weight-900 mb-0">Bizning <span class="text-primary">Xizmatdan</span> foydalanib siz...</h2>
+
                         <img src="images/line.png" alt="" class="img-fluid mx-auto my-3 d-block">
-                        <p class="mb-0"> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        <p class="mb-0"> Eng qulay va arzon narxlarda,  sifatli websaytga ega bo'lasiz va bizning xizmatimizdan foydalanganingizga hech ham afsuslanmaysiz. Websaytingiz buyrtma bergan kuningzdan boshlab 1-6 kun ichida tayyor bo'ladi. Mijozlaringiz websaytga kirib o'ziga kerakli bo'lgan barcha ma'lumotlarni olishadi va saytdan mamnun bo'lishadi. Albatta!!!
                         </p>
                     </div>
                 </div>
@@ -111,11 +112,11 @@
                         </div>
                         <!-- Heading -->
                         <h3>
-                            Web design
+                            {{__('lang.web_design')}}
                         </h3>
                         <!-- Text -->
                         <p class="mb-0">
-                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                        Veb-dizayn veb-saytlarni ishlab chiqarish va ularga xizmat ko'rsatishda turli xil ko'nikmalar va intizomlarni o'z ichiga oladi.
                         </p>
                     </div>
                     <!--End Box -->
@@ -129,11 +130,11 @@
                         </div>
                         <!-- Heading -->
                         <h3>
-                            Internet Marketing
+                            {{__('lang.Internet_Marketing')}}
                         </h3>
                         <!-- Text -->
                         <p class="mb-0">
-                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                        Dasturiy ta'minot bu ma'lumotlardan qiymat olish uchun ilmiy usullar, jarayonlar, algoritmlar va tizimlardan foydalanadigan fanlararo sohadir.
                         </p>
                     </div>
                     <!--End Box -->
@@ -147,11 +148,11 @@
                         </div>
                         <!-- Heading -->
                         <h3>
-                            Graphic Design
+                            {{__('lang.Graphic_Design')}}
                         </h3>
                         <!-- Text -->
                         <p class="mb-0">
-                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                        Grafik dizayn boshqa odamlar bilan muloqot qilishingizni yaxshilaydigan muhim vositadir. U fikrlaringizni samarali va chiroyli tarzda etkazishga xizmat qiladi.
                         </p>
                     </div>
                     <!--End Box -->
@@ -165,7 +166,7 @@
                         </div>
                         <!-- Heading -->
                         <h3>
-                            Advanced Statistics
+                            {{__('lang.Advanced_Statistics')}}
                         </h3>
                         <!-- Text -->
                         <p class="mb-0">
@@ -183,7 +184,7 @@
                         </div>
                         <!-- Heading -->
                         <h3>
-                            Social Media Support
+                            {{__('lang.Social_Media_Support')}}
                         </h3>
                         <!-- Text -->
                         <p class="mb-0">
@@ -201,7 +202,7 @@
                         </div>
                         <!-- Heading -->
                         <h3>
-                            Videography
+                            {{__('lang.Videography')}}
                         </h3>
                         <!-- Text -->
                         <p class="mb-0">
@@ -222,7 +223,7 @@
             <div class="row mb-30">
                 <div class="col-md-10 offset-md-1">
                     <div class="srction_title text-center">
-                        <h2 class="h1 font-weight-900 mb-0">Key features of the <span class="text-primary">product</span></h2>
+                        <h2 class="h1 font-weight-900 mb-0"><span class="text-primary">{{__('lang.production')}}</span>{{__('lang.key_features')}}</h2>
                         <img src="images/line.png" alt="" class="img-fluid mx-auto my-3 d-block">
                         <p class="mb-0"> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
                         </p>
@@ -245,7 +246,7 @@
                             <div class="media-body pl-4">
                                 <!-- Heading -->
                                 <h3>
-                                    Quality Code
+                                   {{__('lang.Quality_Code')}}
                                 </h3>
                                 <!-- Text -->
                                 <p class="mb-0">
@@ -265,7 +266,7 @@
                             <div class="media-body pl-4">
                                 <!-- Heading -->
                                 <h3>
-                                    Easy to customize
+                                    {{__('lang.easy')}}
                                 </h3>
                                 <!-- Text -->
                                 <p class="mb-0">
@@ -285,7 +286,7 @@
                             <div class="media-body pl-4">
                                 <!-- Heading -->
                                 <h3>
-                                    Awesome Support
+                                   {{__('lang.awesome')}}
                                 </h3>
                                 <!-- Text -->
                                 <p class="mb-0">
@@ -313,7 +314,7 @@
                             <div class="media-body pl-4">
                                 <!-- Heading -->
                                 <h3>
-                                    Strategy Solutions
+                                   {{__('lang.strategy')}}
                                 </h3>
                                 <!-- Text -->
                                 <p class="mb-0">
@@ -333,7 +334,7 @@
                             <div class="media-body pl-4">
                                 <!-- Heading -->
                                 <h3>
-                                    Awesome Support
+                                {{__('lang.awesome')}}
                                 </h3>
                                 <!-- Text -->
                                 <p class="mb-0">
@@ -353,7 +354,7 @@
                             <div class="media-body pl-4">
                                 <!-- Heading -->
                                 <h3>
-                                    Easy to customize
+                                   {{__('lang.easy')}}
                                 </h3>
                                 <!-- Text -->
                                 <p class="mb-0">
@@ -383,7 +384,7 @@
                   <a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>iFrame Youtube</a>
                   <a href="//vimeo.com/1084537" data-lity>iFrame Vimeo</a>
                   <a href="//maps.google.com/maps?q=1600+Amphitheatre+Parkway,+Mountain+View,+CA" data-lity>Google Maps</a> -->
-                    <h2 class="text-white h1 font-weight-900 mb-2">VIDEO PRESENTATION</h2>
+                    <h2 class="text-white h1 font-weight-900 mb-2">{{__('lang.video')}}</h2>
                     <p class="text-white mb-0"> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
                     </p>
                 </div>
@@ -396,7 +397,7 @@
             <div class="row mb-30">
                 <div class="col-md-10 offset-md-1">
                     <div class="srction_title text-center">
-                        <h2 class="h1 font-weight-900 mb-0"> What people <span class="text-primary">say</span></h2>
+                        <h2 class="h1 font-weight-900 mb-0"> {{__('lang.people')}} <span class="text-primary">{{__('lang.say')}}</span></h2>
                         <img src="images/line.png" alt="" class="img-fluid mx-auto my-3 d-block">
                         <p class="mb-0"> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
                         </p>
@@ -423,7 +424,7 @@
                                     <img src="images/user_say.jpg" alt="say">
                                 </div>
                                 <div class="media-body pl-4">
-                                    <h6 class="font-weight-bold mb-0">Todd Quinto</h6>
+                                    <h6 class="font-weight-bold mb-0">Shohruhbek</h6>
                                     <h6 class="mb-0"><small>works at Google</small></h6>
                                 </div>
                             </div>
@@ -541,10 +542,8 @@
             <div class="row mb-30">
                 <div class="col-md-10 offset-md-1">
                     <div class="srction_title text-center">
-                        <h2 class="h1 font-weight-900 mb-0 text-white">Choose your <span class="text-primary">pricing</span></h2>
+                        <h2 class="h1 font-weight-900 mb-0 text-white"> {{__('lang.pricing1')}}<span class="text-primary"> {{__('lang.choose')}}</span></h2>
                         <img src="images/line.png" alt="" class="img-fluid mx-auto my-3 d-block">
-                        <p class="mb-0 text-white"> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-                        </p>
                     </div>
                 </div>
             </div>
@@ -552,66 +551,79 @@
                 <div class="item">
                     <div class="card price_box">
                         <div class="card-header bg-transparent p-0 border-0">
-                            <h2 class="text-primary">Basic Plan</h2>
-                            <h3 class="text-primary"><sub>$</sub>400<sub>/ Month</sub></h3>
+                            <h2 class="text-primary">Oddiy vizitkali sayt</h2>
+                            <h2 class="text-primary">Tayyorlash muddati: 3-5 kun</h2>
+                            <h3 class="text-primary">2.400.000<br><sub><del style="color:red;">3.000.000</del></sub></h3>
                         </div>
                         <div class="card-body py-5 px-0">
                             <ul class="list-unstyled mb-0">
-                                <li>10 GB Space
-                                    <li>15 Subdomain Unlimited</li>
-                                    <li>8 Month Support</li>
-                                    <li>Easy to Costomize</li>
-                                    <li>Unlimited Users</li>
-                                    <li>Support Unlimited</li>
-                                    <li>Unlimited Download</li>
-                            </ul>
+                                <li>Sahifalar soni: 1-4
+                                    <li>Quyidagilardan biri: O'zbek tili, Rus tili, Ingliz tili</li>
+                                    <li>Slayd shou</li>
+                                    <li>Ijtimoiy tugmalar</li>
+                                    <li>Aloqa uchun form</li>
+                                    <li style="color:blue">Qo'shimcha funksiyalar qo'llash kelishilinadi</li>
+                                    <li style="color:red">Sayt uchun hosting va domen bundan mustasno</li>
+                                </ul>
                         </div>
                         <div class="card-footer border-top bg-transparent pb-0 pt-4">
-                            <a href="" class="btn btn-outline-dark btn-round">GET STARTED</a>
+                            <a href="" class="btn btn-outline-dark btn-round">{{__('lang.get_started')}}</a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="card price_box active">
                         <div class="card-header bg-transparent p-0 border-0">
-                            <h2 class="text-primary">Silver Plan</h2>
-                            <h3 class="text-primary"><sub>$</sub>450<sub>/ Month</sub></h3>
+                            <h2 class="text-primary">Standart vizitkali sayt</h2>
+                            <h2 class="text-primary">Tayyorlash muddat: 4-6 kun</h2>
+                            <h3 class="text-primary">4.700.000 <br> <sub><del style="color:red">5.000.000</del></sub></h3>
                         </div>
                         <div class="card-body py-5 px-0">
                             <ul class="list-unstyled mb-0">
-                                <li>10 GB Space
-                                    <li>15 Subdomain Unlimited</li>
-                                    <li>8 Month Support</li>
-                                    <li>Easy to Costomize</li>
-                                    <li>Unlimited Users</li>
-                                    <li>Support Unlimited</li>
-                                    <li>Unlimited Download</li>
+                                <li>Sahifalar soni: 4-6
+                                    <li>Sayt Tili: O'zbek tili, Rus tili, Ingliz tili</li>
+                                    <li>Slaydshou</li>
+                                    <li>Ijtimoiy tugmalar</li>
+                                    <li>Aloqa uchun form</li>
+                                    <li>Rasmlar galereyasi (20 tagacha)</li>
+                                    <li>CMS kontentni boshqarish tizimi (Admin tizimidan: taxrirlash, sozlash, o'chirish)</li>
+                                    <li>Saytga qilingan murojaatlar Telegram botga yoki kanalga kelib tushadi</li>
+                                    <li style="color:blue">Qo'shimcha funksiyalar qo'llash kelishilinadi</li>
+                                    <li style="color:red">Sayt uchun hosting va domen bundan mustasno</li>
                             </ul>
                         </div>
                         <div class="card-footer border-top bg-transparent pb-0 pt-4">
-                            <a href="" class="btn btn-outline-dark btn-round">GET STARTED</a>
+                            <a href="" class="btn btn-outline-dark btn-round">{{__('lang.get_started')}}</a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="card price_box">
                         <div class="card-header bg-transparent p-0 border-0">
-                            <h2 class="text-primary">Gold Plan</h2>
-                            <h3 class="text-primary"><sub>$</sub>950<sub>/ Month</sub></h3>
+                            <h2 class="text-primary">Maxsus vizitkali sayt</h2>
+                            <h2 class="text-primary">Tayyorlash muddati: 10-12 kun</h2>
+                            <h3 class="text-primary"> 9.000.000<sub> <del style="color:red">12.000.000</del></sub></h3>
                         </div>
                         <div class="card-body py-5 px-0">
                             <ul class="list-unstyled mb-0">
-                                <li>10 GB Space
-                                    <li>15 Subdomain Unlimited</li>
-                                    <li>8 Month Support</li>
-                                    <li>Easy to Costomize</li>
-                                    <li>Unlimited Users</li>
-                                    <li>Support Unlimited</li>
-                                    <li>Unlimited Download</li>
+                                <li>Sahifalar soni: 10-20
+                                    <li>Sayt Tili: O'zbek tili, Rus tili, Ingliz tili</li>
+                                    <li>Slaydshou</li>
+                                    <li>Ijtimoiy tugmalar</li>
+                                    <li>Foydalanuvchilarni ro'yxatdan o'tkazish tizimi (mobil telefonlarga sms yuborish orqali)</li>
+                                    <li>Qidiruv Tizimlariga ulash</li>
+                                    <li>Saytning Statistika qismini yaratish</li>
+                                    <li>Saytni to'lov tizimlariga ulash: (Click, Payme, Paynet)</li>
+                                    <li>Rasmlar galereyasi (20 tagacha)</li>
+                                    <li>CMS kontentni boshqarish tizimi (Admin tizimidan: taxrirlash, sozlash, o'chirish)</li>
+                                    <li>Aloqa uchun form</li>
+                                    <li>Saytga qilingan murojaatlar Telegram botga yoki kanalga kelib tushadi</li>
+                                    <li style="color:blue">Qo'shimcha funksiyalar qo'llash kelishilinadi</li>
+                                    <li style="color:green">Sayt uchun hosting va domen 1 yilga bepul beriladi</li>
                             </ul>
                         </div>
                         <div class="card-footer border-top bg-transparent pb-0 pt-4">
-                            <a href="" class="btn btn-primary btn-round">GET STARTED</a>
+                            <a href="" class="btn btn-primary btn-round">{{__('lang.get_started')}}</a>
                         </div>
                     </div>
                 </div>
@@ -623,9 +635,9 @@
             <div class="row mb-30">
                 <div class="col-md-10 offset-md-1">
                     <div class="srction_title text-center">
-                        <h2 class="h1 font-weight-900 mb-0"> Our <span class="text-primary">Newsletter</span></h2>
+                        <h2 class="h1 font-weight-900 mb-0"> {{__('lang.Our')}} <span class="text-primary">{{__('lang.Newsletter')}}</span></h2>
                         <img src="images/line.png" alt="" class="img-fluid mx-auto my-3 d-block">
-                        <p class="mb-0"> To Be Updated Our Latest News & Offers
+                        <p class="mb-0"> Bizdagi eng so'nggi yangiliklarni kuzatib boring
                         </p>
                     </div>
                 </div>
@@ -634,8 +646,8 @@
                 <div class="col-md-8 offset-md-2">
                     <form>
                         <div class="form-group newsletter_input mb-0">
-                            <input type="email" placeholder="Your Email" class="form-control bg-white shadow-sm px-4 border-0">
-                            <button class="btn btn-primary btn-round">Subscribe <i class="fa fa-paper-plane"></i></button>
+                            <input type="email" placeholder="{{__('lang.email')}}" class="form-control bg-white shadow-sm px-4 border-0">
+                            <button class="btn btn-primary btn-round">{{__('lang.subscribe')}}<i class="fa fa-paper-plane"></i></button>
                         </div>
                     </form>
                 </div>
@@ -648,7 +660,7 @@
             <div class="row mb-30">
                 <div class="col-md-10 offset-md-1">
                     <div class="srction_title text-center">
-                        <h2 class="h1 font-weight-900 mb-0"> Our <span class="text-primary">Team</span></h2>
+                        <h2 class="h1 font-weight-900 mb-0"> {{__('lang.our1')}} <span class="text-primary">{{__('lang.team')}}</span></h2>
                         <img src="images/line.png" alt="" class="img-fluid mx-auto my-3 d-block">
                         <p class="mb-0"> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
                         </p>
@@ -675,7 +687,7 @@
                                     <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
                                 </ul>
                             </div>
-                            <button class="btn btn-dark">Product Strategist</button>
+                            <button class="btn btn-dark">Mahsulot strategigi</button>
                         </div>
                     </div>
                 </div>
@@ -764,38 +776,38 @@
                         <form name="sentMessage" id="contactForm" method="post" novalidate>
                             <div class="row">
                                 <div class="col-md-6 control-group">
-                                    <label>Name</label>
+                                    <label>{{__('lang.name')}}</label>
                                     <div class="form-group controls">
-                                        <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                        <input type="text" class="form-control" placeholder="{{__('lang.name')}}" id="name" required data-validation-required-message="Please enter your name.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 control-group">
-                                    <label>Email</label>
+                                    <label>{{__('lang.main-email')}}</label>
                                     <div class="form-group controls">
-                                        <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                        <input type="email" class="form-control" placeholder="{{__('lang.email')}}" id="email" required data-validation-required-message="Please enter your email address.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group controls">
-                                        <label>Subject</label>
-                                        <input type="text" placeholder="Subject" id="subject" class="form-control" required data-validation-required-message="Please enter your Subject.">
+                                        <label>{{__('lang.subject')}}</label>
+                                        <input type="text" placeholder="{{__('lang.subject')}}" id="subject" class="form-control" required data-validation-required-message="Please enter your Subject.">
                                         <p class="help-block text-danger"></p>
                                     </div>
 
                                 </div>
                                 <div class="col-md-12 control-group">
                                     <div class="form-group controls">
-                                        <label>Message</label>
-                                        <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                        <label>{{__('lang.main-message')}}</label>
+                                        <textarea rows="5" class="form-control" placeholder="{{__('lang.message')}}" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                         <p class="help-block text-danger"></p>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                             </div>
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-primary w-100 py-3   btn-round">Send Message <i class="fa fa-envelope ml-2"></i></button>
+                            <button type="submit" class="btn btn-primary w-100 py-3   btn-round">{{__('lang.send')}} <i class="fa fa-envelope ml-2"></i></button>
                         </form>
 
                     </div>
@@ -810,22 +822,22 @@
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-6 mb-30">
                         <div class="contact_location shadow h-100  p-4 p-md-5">
-                            <h3>Our Office</h3>
+                            <h3>{{__('lang.office')}}</h3>
                             <p>Palmer Gay <br>557-2026 Purus St.</p>
                             <ul class="location_info list-unstyled">
                                 <li><i class="fa fa-location-arrow"></i>Watertown TN 07367</li>
-                                <li><i class="fa fa-map-marker-alt"></i>New Watertown, USA</li>
+                                <li><i class="fa fa-map-marker-alt"></i>{{__('lang.office-tash')}}</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 mb-30">
                         <div class="contact_location shadow h-100  p-4 p-md-5">
-                            <h3>Contact Us</h3>
-                            <p>Ante amet vitae vulputate odio<br> nulla vel pretium pulvinar aenean.</p>
+                            <h3>{{__('lang.contact')}}</h3>
+                            <p>Biz bilan bo'g'laning va buyurtma berib <br> o'z vebsaytingizga ega bo'ling.</p>
                             <ul class="location_info  list-unstyled list-unstyled">
-                                <li><a href=""><i class="fa fa-envelope"></i>bootstrapdevelop@gmail.com</a></li>
-                                <li><a href=""><i class="fa fa-phone-volume"></i>+00 987 654 321</a></li>
-                                <li><a href=""><i class="fa fa-globe-africa"></i>www.bootstrapdevelop.com</a></li>
+                                <li><a href=""><i class="fa fa-envelope"></i>akyprog@gmail.com</a></li>
+                                <li><a href=""><i class="fa fa-phone-volume"></i>+998 (99) 000-53-03</a></li>
+                                <li><a href=""><i class="fa fa-globe-africa"></i>www.richer.uz</a></li>
                             </ul>
                         </div>
                     </div>
@@ -854,39 +866,27 @@
                                     <a href="#home">{{__('lang.home')}} <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li>
-                                    <a href="#FEATURES">FEATURES</a>
+                                    <a href="#FEATURES">{{__('lang.about')}}</a>
                                 </li>
                                 <li>
-                                    <a href="#PRODUCT">PRODUCT</a>
+                                    <a href="#PRODUCT">{{__('lang.product')}}</a>
                                 </li>
 
                                 <li>
-                                    <a href="#PRICING">PRICING</a>
+                                    <a href="#PRICING">{{__('lang.pricing')}}</a>
                                 </li>
                                 <li>
-                                    <a href="#Team">Team</a>
+                                    <a href="#Team">{{__('lang.team')}}</a>
                                 </li>
                                 <li>
-                                    <a href="#Newsletter">NEWSLETTER</a>
+                                    <a href="#Newsletter">{{__('lang.calculator')}}</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer_copywrite_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!-- Footer Copwrite Area -->
-                        <div class="footer_bottom text-center">
-                            <p>Made with <i class="fa fa-heart"></i> by <a href="https://themeforest.net/user/nilssatasiya">Nilssatasiya </a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div>        
     </footer>
 
     <!-- Optional JavaScript -->
