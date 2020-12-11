@@ -34,7 +34,31 @@ class HomeController extends Controller
      */
     public function store(Request $request)
     {
-        return abort(404);
+        $botToken = "1471915748:AAFkPjGagRtu0wx0mp09w0k6dWRMtu0cDIY";
+        $telegram = "https://api.telegram.org/bot" . $botToken;
+        function curl_get_contents($url)
+        {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_HEADER, 0);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_URL, $url);
+            $data = curl_exec($ch);
+            curl_close($ch);
+            return $data;
+        }
+        $chat_id = "@itsystemprossdawdqwdqwsdasdasds";
+        if ($request->tel) {            
+            $number = $request->tel;            
+            $message = urlencode(
+                "<b>Client Bot </b> \n \n"                    
+                    . "<b>Телефонный номер:</b> " . $number . "\n"                    
+            );
+            curl_get_contents($telegram . "/sendMessage?chat_id=" . $chat_id . "&text=" . $message . "&parse_mode=html");
+            //logger(curl_get_contents($telegram . "/sendMessage?chat_id=" . $chat_id . "&text=" . $message . "&parse_mode=html"));
+        } else {
+            echo "Error is happened";
+        }
+        return redirect()->back();
     }
 
     /**
@@ -43,9 +67,39 @@ class HomeController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function storeMessage(Request $request)
     {
-        return abort(404);
+        $botToken = "1471915748:AAFkPjGagRtu0wx0mp09w0k6dWRMtu0cDIY";
+        $telegram = "https://api.telegram.org/bot" . $botToken;
+        function curl_get_contents($url)
+        {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_HEADER, 0);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_URL, $url);
+            $data = curl_exec($ch);
+            curl_close($ch);
+            return $data;
+        }
+        $chat_id = "@itsystemprossdawdqwdqwsdasdasds";
+        if ($request->name && $request->tel && $request->message) {
+            $name = $request->name;
+            $number = $request->tel;
+            $subject = $request->subject;
+            // $payment = $_POST['payment_type'];
+            $message = urlencode(
+                "<b>Client Bot </b> \n \n"
+                    . "<b>ФИО:</b> " . $name . "\n"
+                    . "<b>Телефонный номер:</b> " . $number . "\n"
+                    . "<b>Около:</b> " . $subject . "\n"
+                    . "<b>Сообщение:</b> " . $request->message
+            );
+            curl_get_contents($telegram . "/sendMessage?chat_id=" . $chat_id . "&text=" . $message . "&parse_mode=html");
+            //logger(curl_get_contents($telegram . "/sendMessage?chat_id=" . $chat_id . "&text=" . $message . "&parse_mode=html"));
+        } else {
+            echo "Error is happened";
+        }
+        return redirect()->back();
     }
 
     /**
