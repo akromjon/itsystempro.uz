@@ -6,7 +6,7 @@ return [
     'pricing'=>'Narxlar',
     'team'=>'Jamoa',
     'contact'=>'Aloqa',
-    'calculator'=>'Kalkulyator',
+    'calculator'=>'Buyurtma Berish',
     'start_website'=>'1 Kunda Web Saytingizga Ega Bo\'ling',
     'website_des'=>'O\'z Biznesingiz uchun tezkor, zamonaviy saytingiz bo\'lishini xohlaysizmi?',
     'order'=>'Buyurtma bering',
@@ -20,7 +20,7 @@ return [
     'Videography'=>'Videografika',
     'production'=>'Mahsulotmizning',
     'key_features'=>' Asosiy Xususiyatlari',
-    'Quality_Code'=> 'Sifatli Xizmat',
+    'quality_Code'=> 'Sifatli Xizmat',
     'easy' => 'Sozlash uchun oson',
     'awesome'=>'Ajoyib Qo\'llab-Quvvatlash',
     'strategy'=>' Strategik Yechimlar',
@@ -32,7 +32,7 @@ return [
     'get_started'=>'Buyurtma berish',
     'Our'=>'Bizdagi',
     'Newsletter'=>'yangiliklar',
-    'subscribe'=>'A\'zo bo\'ling',
+    'subscribe'=>'Buyurtma berish',
     'our1'=>'Bizning',
     'email'=>'Email',
     'main-email'=>'Pochta manzilingiz',
@@ -43,6 +43,7 @@ return [
     'send'=>'Yuborish',
     'office'=>'Bizning manzil',
     'office-tash'=>'Toshkent shahri, O\'zbekiston',
+    'number'=>'Telefon raqamingiz',
 
 
 

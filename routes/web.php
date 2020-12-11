@@ -19,4 +19,5 @@ Route::get('/{local}',function($lang){
     return view('welcome');
 });
 Route::post('/send','HomeController@store')->name('message.store');
+Route::post('/sendMessage','HomeController@storeMessage')->name('message.storeMessage');
 
